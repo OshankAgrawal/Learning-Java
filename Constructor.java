@@ -1,19 +1,14 @@
-class my{
-    int a;
-    String b;
-    // my(){
-    //     a=20;
-    //     b="Agrawal";
-    // }
-    void Show(){
-        System.out.println(a+" "+b);
+class SimpleObject {
+    SimpleObject(){
+        System.out.println("Default Constructor....");
+    }
+    SimpleObject(int a){
+        System.out.println("One Argument Constructor....");
     }
 }
-
-public class Constructor {
-    public static void main(String args[]){
-        my ref;
-        ref=new my();
-        ref.Show();
+public class Constructor{
+    public static void main(String[] args) {
+        new SimpleObject();
+        new SimpleObject(100);
     }
 }

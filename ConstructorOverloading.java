@@ -16,11 +16,11 @@ public class ConstructorOverloading {
         c=z; b=y;
     }
     public static void main (String args[]){
-        ConstructorOverloading r=new ConstructorOverloading();
-        ConstructorOverloading r2=new ConstructorOverloading(10);
-        ConstructorOverloading r3=new ConstructorOverloading(232.23,"Agrawal");
-        ConstructorOverloading r4=new ConstructorOverloading(5645,896.25);
-        ConstructorOverloading r5=new ConstructorOverloading("Oshank Agrawal",48.165);
+        ConstructorOverloading2 r=new ConstructorOverloading2();
+        ConstructorOverloading2 r2=new ConstructorOverloading2(10);
+        ConstructorOverloading2 r3=new ConstructorOverloading2(232.23,"Agrawal");
+        ConstructorOverloading2 r4=new ConstructorOverloading2(5645,896.25);
+        ConstructorOverloading2 r5=new ConstructorOverloading2("Oshank Agrawal",48.165);
     System.out.println(r.a+" "+r.b+" "+r.c);
     System.out.println(r2.a);
     System.out.println(r3.b+" "+r3.c);

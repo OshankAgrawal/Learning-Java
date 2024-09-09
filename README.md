@@ -1,2 +1,2 @@
-# Learning JAVA
-In this repository i am upload many JAVA program which i am practice during the learning journey of JAVA.
+# **Learning JAVA**
+In this repository I am upload many JAVA program which I am practice during the learning journey of JAVA Programming Language.
